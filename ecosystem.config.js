@@ -25,7 +25,8 @@ module.exports = {
   deploy : {
     production : {
       user : 'boitier',
-      host : '10.0.2.15:1337',
+      host : '10.0.2.15',
+      port : '1337',
       ref  : 'origin/master',
       repo : 'https://github.com/AllienExia/boitier.git',
       path : '/home/boitier/deploy/getData/',
