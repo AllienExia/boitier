@@ -9,6 +9,8 @@ module.exports = {
     {
       name      : 'getData',
       script    : 'index.js',
+      instances : '1',
+      exec_mode : 'cluster', 
       env: {
         COMMON_VARIABLE: 'true'
       },
